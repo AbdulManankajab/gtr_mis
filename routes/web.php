@@ -16,5 +16,5 @@ Route::get('register_supper_admin', 'LoginController@register_supper_admin');
 Route::get('add_supper_admin', 'LoginController@add_supper_admin');
 Route::post('check_auth', 'LoginController@check_auth');
 Route::get('dashbord', 'DashbordController@dashbord');
-Route::get('departments', 'UserController@departments');
-Route::get('users', 'UserController@users');
+Route::get('departments', 'DepartmentsController@departments');
+Route::get('user_list', 'UserController@user_list');

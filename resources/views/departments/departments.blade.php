@@ -12,19 +12,24 @@
 						  	<table class="table table-hover">
 							    <thead>
 							      	<tr>
+								        <th>#</th>
 								        <th>Dep Name</th>
 								        <th></th>
 							      	</tr>
 							    </thead>
 							    <tbody>
+							    	<?php $i = 1;?>
+							    	@foreach($department as $dep)
 							      	<tr>
-								        <td>Adminstration</td>
+								        <td>{{$i++}}</td>
+								        <td>{{$dep->name}}</td>
 								        <td>
 								        	<div class="btn btn-success has-icon btn-rounded"><i class="mdi mdi-account-multiple"></i>
-								        		<a href="{{asset('users')}}" style="color: #fff">Users</a>
+								        		<a href="" style="color: #fff">Update</a>
 								        	</div>
 								        </td>
 							      	</tr>
+							      	@endforeach
 							    </tbody>
 						  	</table>
 						</div>

@@ -48,7 +48,7 @@
           </li>
           <li>
             <a href="#users" data-toggle="collapse" aria-expanded="false">
-              <span class="link-title">users</span>
+              <span class="link-title">Departmets</span>
               <i class="mdi mdi-account-multiple link-icon"></i>
             </a>
             <ul class="collapse navigation-submenu" id="users">
@@ -59,15 +59,12 @@
           </li>
           <li>
             <a href="#sample-pages" data-toggle="collapse" aria-expanded="false">
-              <span class="link-title">Adminstration</span>
+              <span class="link-title">Users</span>
               <i class="mdi mdi-flask link-icon"></i>
             </a>
             <ul class="collapse navigation-submenu" id="sample-pages">
               <li>
-                <a href="pages/sample-pages/login_1.html" target="_blank">Login</a>
-              </li>
-              <li>
-                <a href="pages/sample-pages/error_2.html" target="_blank">Error</a>
+                <a href="{{asset('user_list')}}">User List</a>
               </li>
             </ul>
           </li>
