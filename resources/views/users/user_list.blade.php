@@ -25,7 +25,7 @@
 								        <td>{{$user->name}}</td>
 								        <td>
 								        	<div class="btn btn-success has-icon btn-rounded"><i class="mdi mdi-account-multiple"></i>
-								        		<a href="" style="color: #fff">Update</a>
+								        		<a href="{{asset('update_user')}}" style="color: #fff">Update</a>
 								        	</div>
 								        </td>
 							      	</tr>
